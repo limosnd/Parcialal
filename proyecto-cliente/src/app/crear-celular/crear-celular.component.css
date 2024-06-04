@@ -1,0 +1,48 @@
+.background {
+    background-color: #8B0000; /* Color vino tinto */
+    height: 100vh; /* Altura del fondo */
+  }
+  
+  .container {
+    background-color: #fff; /* Color de fondo del contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin: 50px auto; /* Margen exterior */
+    width: 80%; /* Ancho del contenedor */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 10px; /* Espaciado inferior */
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  select {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado inferior */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  input[type="submit"] {
+    background-color: #8B0000; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cursor de puntero */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #800000; 
+  }
+  
+  
